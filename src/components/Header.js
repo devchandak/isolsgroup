@@ -40,7 +40,7 @@ const Header = () => {
           </NavDropdown>
 
           <NavDropdown title="Solutions & Services" id="solutions-dropdown">
-            <NavDropdown.Item href="#">Business Technology</NavDropdown.Item>
+            <NavDropdown.Item href="/business-technology-solutions">Business Technology</NavDropdown.Item>
             <NavDropdown.Item href="#">Digital Marketing</NavDropdown.Item>
             <NavDropdown.Item href="#">Digital Payments</NavDropdown.Item>
             <NavDropdown.Item href="#">Business Process Management</NavDropdown.Item>

@@ -6,6 +6,7 @@ import DigitalIndiaLeader from "./components/groupcompanies/DigitalIndiaLeader";
 import DigitalMarketingCompanion from "./components/groupcompanies/DigitalMarketingCompanion";
 import ThirstyHunter from "./components/groupcompanies/ThirstyHunter";
 import BookYouOnline from "./components/groupcompanies/BookYouOnline";
+import BusinessTechnology from "./components/solutionservices/BusinessTechnology";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="/digital-marketing-companion" element={<DigitalMarketingCompanion />} />
         <Route path="/thirsty-hunter" element={<ThirstyHunter />} />
         <Route path="/book-you-online" element={<BookYouOnline />} />
+        <Route path="/business-technology-solutions" element={<BusinessTechnology />} />
       </Routes>
     </Router>
   );
