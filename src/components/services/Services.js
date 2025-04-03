@@ -7,14 +7,14 @@ const servicesData = [
     description:
       "Business Technology is one of the areas of specialization of ISOLS Group developed & managed under its brand Innovative Solution Technologies.",
     imgSrc:
-      "https://www.isolsgroup.com/images/solution-icons/3199bc5d6a8a9e06751ea6d898289cf9.webp",
+      "/images/services/help-1.webp",
     link: "#",
   },
   {
     title: "Digital Marketing",
     description:
       "Digital Marketing is one of the primary offshoots of ISOLS Group managed under its brand Digital India Leader.",
-    imgSrc: "https://www.isolsgroup.com/images/marketing.png",
+    imgSrc: "/images/services/marketing.png",
     link: "#",
   },
   {
@@ -22,21 +22,21 @@ const servicesData = [
     description:
       "India Digital Pay is an initiative of Innovative Solution Technologies under ISOLS Group to revolutionize SMEs and unorganized businesses.",
     imgSrc:
-      "https://www.isolsgroup.com/images/solution-services-icons/digital-payment.png",
+      "/images/services/digital-payment.png",
     link: "#",
   },
   {
     title: "Business Process Management",
     description:
       "Streamlining business process execution is the basis for the success of an organization, and we specialize in redefining your business process to take it to the zenith of success.",
-    imgSrc: "https://www.isolsgroup.com/images/process.png",
+    imgSrc: "/images/services/process.png",
     link: "#",
   },
   {
     title: "Cloud Infrastructure",
     description:
       "Robust Cloud Server Infra is the backbone for the online success of the venture. BookYouOnline.com, one of the wings of ISOLS Group specializes in the same.",
-    imgSrc: "https://www.isolsgroup.com/images/cloud.png",
+    imgSrc: "/images/services/cloud.png",
     link: "#",
   },
   {
@@ -44,7 +44,7 @@ const servicesData = [
     description:
       "Setting up the robust & reliable in-house tech and digital ecosystem is the demand of every large enterprise, and we have the code of conduct to fulfill their demands.",
     imgSrc:
-      "https://www.isolsgroup.com/images/group-icon/ist-favicon_old.webp",
+      "/images/services/ist-favicon_old.webp",
     link: "#",
   },
 ];

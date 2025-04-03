@@ -1,0 +1,20 @@
+.successstories {
+    margin-top: 40px;
+}
+
+.successvideo {
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.successvideo img.w-full {
+    width: 100%;
+}
+
+.youtubebtn {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+}

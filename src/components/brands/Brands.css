@@ -1,0 +1,42 @@
+
+.clients{
+    padding-top: 100px;
+.slick-slide {
+    margin: 0px 5px;
+}
+
+.slick-slide img {
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 70px;
+    text-align: center;
+    padding: 8px;
+}
+
+.slick-slide .img-100 {
+    height: 100%;
+}
+
+
+
+
+ .slick-slider.slick-initialized {
+    margin-top: 30px;
+}
+
+}
+
+.bussiness{
+    padding-bottom: 40px;
+    .slick-slide img {
+        width: 100%;
+        border: 1px solid #ccc;
+        height: 100%;
+        text-align: center;
+        padding: 8px;
+    }
+    .slide {
+        padding: 10px 10px;
+    }
+ 
+}

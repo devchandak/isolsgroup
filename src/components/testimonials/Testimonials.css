@@ -1,0 +1,235 @@
+section.testimonials{
+    background-color: #f6f6f8;
+
+
+
+.b-services-item {
+    margin-bottom: 10px;
+  }
+  
+  .services-icon {
+    float: left;
+    margin-right: 25px;
+    padding-top: 5px;
+  }
+  
+  .services-text {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .services-text h6 {
+    color: #ff9600;
+    position: relative;
+    padding: 15px 0 10px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    font-family: Raleway, sans-serif;
+    font-size: 17px;
+    margin: 0px;
+  }
+  
+  .services-text p {
+    color: #666;
+    line-height: 1.8 ;
+    font-size: 15px;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 300;
+    margin-top: 20px;
+  }
+  
+  .featured-services-right {
+    padding-left: 80px;
+    padding-top: 30px;
+  }
+  
+  .services-text h6:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 15px;
+    height: 1px;
+  }
+
+ .right-side{
+    background-color: #f9f9fa;
+    height: 270px;
+    padding: 10px 0px 0px;
+  }
+ .left-side{
+    height: 270px;
+    padding: 60px 0px 0px;
+  }
+  .service-item {
+    margin-bottom: 0;
+    margin-right: 16%;
+    margin-left: 30px;
+}
+
+
+.testimonial-item {
+    padding: 0 6%;
+    display: flex !important;
+    column-gap: 40px;
+    height: 230px;
+    align-items: center;
+}
+
+.quote-userpic {
+    display: block;
+    width: 110px;
+    height: 110px;
+    background-color: #eeeeee00;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+
+.quote-content {
+    width: 70%;
+}
+
+.quote-userpic img {
+    max-width: 100%;
+    display: block;
+}
+ul.slick-dots {
+    text-align: right;
+    bottom: 30px;
+    right: 30px;
+    left: unset;
+    width: auto;
+}
+
+ul.slick-dots li {
+    display: block;
+    text-align: right;
+}
+
+p.quote-text {
+    font-size: 18px;
+    color: #222;
+    line-height: 1.5;
+    font-style: italic;
+    margin-bottom: 18px;
+    font-family: Merriweather,serif;
+}
+
+.quote-content p.quote-author {
+    font-size: 12px;
+    font-weight: 700;
+    color: #222;
+    text-transform: uppercase;
+    font-family: "Open Sans",sans-serif;
+}
+.slick-list{
+    padding: 0px !important;
+}
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #00000000;
+    border: 2px solid #666;
+    border-radius: 50px;
+    width: 14px;
+    height: 14px;
+    margin-left: 3px;
+    margin-top: 2px;
+}
+}
+
+
+section.clientfeedback {
+  background: #f9f9fa;
+  padding: 60px 0px;
+  margin-top: 70px;
+
+  section.clientfeedback {
+    background: #f9f9fa;
+    padding: 60px 0px;
+    margin-top: 70px;
+}
+
+.clientfed {
+    padding: 50px 0px 0px;
+}
+
+
+.clientdesc span {
+    background: #f0f0f0;
+    padding: 6px;
+}
+
+.clientdesc p {
+    padding-top: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #484545;
+    font-family: "Open Sans",sans-serif;
+    line-height: 26px;
+}
+
+.clientquote {
+    display: flex;
+    align-items: center;
+}
+
+.clientquote img {
+    padding: 16px;
+}
+
+.clientquote p.quote-client {
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0px 10px;
+}
+
+button.slick-arrow.slick-next   {
+  position: absolute;
+  background: #373d4b;
+  top: auto;
+  bottom: -40px;
+  width: 36px;
+  height: 36px;
+  opacity: 1;
+  border: 1px solid #000000;
+}
+ button.slick-arrow.slick-prev  {
+  position: absolute;
+  background: #373d4b;
+  top: auto;
+  bottom: -40px;
+  width: 36px;
+  right: 15px;
+  left: auto;
+  height: 36px;
+  opacity: 1;
+  border: 1px solid #000000;
+}
+
+button.slick-arrow.slick-next:hover {
+  border: 1px solid #ff9600;
+}
+button.slick-arrow.slick-prev:hover {
+  border: 1px solid #ff9600;
+}
+.slick-next:before {
+  content: '→';
+  font-family: 'bootstrap-icons';
+  content: "\F285";
+  color: #fff;
+  opacity: 1;
+  font-weight: 900;
+  font-size: 18px;
+}
+.slick-prev:before {
+  content: '→';
+  font-family: 'bootstrap-icons';
+  content: "\F284";
+  color: #fff;
+  opacity: 1;
+  font-weight: 900;
+  font-size: 18px;
+}
+}

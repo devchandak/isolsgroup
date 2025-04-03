@@ -1,0 +1,204 @@
+.h-divider {
+    margin: auto;
+    margin-top: 100px;
+    width: 80%;
+    position: relative;
+    margin-bottom: 23px;
+}
+
+.h-divider .shadow1 {
+    overflow: hidden;
+    height: 20px;
+}
+
+
+.h-divider .shadow1:after {
+    content: '';
+    display: block;
+    margin: -25px auto 0;
+    width: 100%;
+    height: 25px;
+    border-radius: 125px/12px;
+    box-shadow: 0 0 8px black;
+}
+.h-divider .text2 {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    bottom: 100%;
+    margin-bottom: -35px;
+    left: 50%;
+    margin-left: -25px;
+    border-radius: 100%;
+    box-shadow: 0 2px 4px #999;
+    background: white;
+}
+.h-divider img {
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 9px;
+    max-width: 60px;
+    border-radius: 100%;
+}
+
+.b-footer-contacts {
+    position: relative;
+    z-index: 2;
+    margin-left: 0px;
+}
+.b-footer-contacts .footer-contacts-item {
+    margin-bottom: 10px;
+}
+.b-footer-contacts .footer-contacts-item .contacts-item-title {
+    padding: 14px 0 0;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    position: relative;
+    letter-spacing: 1px;
+}
+
+.b-footer-contacts .footer-contacts-item .contacts-item-title:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 15px;
+    height: 1px;
+    background: #fff;
+}
+.b-footer-contacts p {
+    font-size: 15px;
+    color: #666;
+    font-family: "Open Sans",sans-serif !important;
+    font-weight: 300;
+    margin-bottom: 6px !important;
+}
+.b-footer-contacts a {
+    text-decoration: none;
+}
+
+.flowlu-form {
+    margin: 30px auto 15px;
+    border: 5px solid #e6e6e6;
+    padding: 40px 40px 40px;
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    max-width: 700px;
+}
+.flowlu-table-rows {
+    width: 100%;
+    border: 0;
+    border-collapse: collapse;
+}
+.flowlu-table-rows td {
+    vertical-align: top;
+    border-width: 0;
+    padding: 0;
+}
+
+.flowlu-form input.flowlu-input {
+    height: 38px;
+    border-radius: 0px;
+}
+
+.flowlu-form .flowlu-input {
+    color: #000;
+    background: 0 0;
+    border-color: #444;
+    height: 43px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: 300;
+    border: none;
+    border-bottom: 1px solid #000;
+    padding: 5px 0 5px;
+}
+.flowlu-input {
+    border: 1px solid;
+    border-bottom-color: rgb(229, 229, 229);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-style: solid;
+    border-left-color: rgb(229, 229, 229);
+    border-left-style: solid;
+    border-right-color: rgb(229, 229, 229);
+    border-right-style: solid;
+    border-top-color: rgb(229, 229, 229);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-top-style: solid;
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    display: inline-block;
+    font-family: "Segoe UI","Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-bottom: 10px;
+    min-height: 30px;
+    outline-color: rgb(51, 51, 51);
+    padding-bottom: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 6px;
+    text-decoration-color: rgb(51, 51, 51);
+    transition-delay: 0s, 0s;
+    transition-duration: 0.2s, 0.2s;
+    transition-property: border, box-shadow;
+    transition-timing-function: cubic-bezier(0, 0, 1, 1), cubic-bezier(0, 0, 1, 1);
+    vertical-align: top;
+    width: 100%;
+}
+
+.flowlu-row.d-flex {
+    column-gap: 30px;
+}
+.flowlu-row-submit {
+    text-align: left;
+    
+}
+
+.flowlu-submit  {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    list-style-type: none;
+    margin-right: 20px;
+    outline-color: rgb(255, 255, 255);
+    perspective-origin: 47.5px 17px;
+    text-decoration-color: rgb(255, 255, 255);
+    transform-origin: 47.5px 17px;
+    transition-duration: 0.3s;
+    transition-property: background-color;
+    color: rgb(255, 150, 0);
+    background: none;
+    border: 1px solid rgb(204, 204, 204);
+    font-weight: 700;
+    padding: 10px 32px;
+    height: 49px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    font-size: 12px;
+}
+
+.flowlu-submit svg {
+    color: #000;
+    font-size: 16px;
+    margin-right: 4px;
+}
+.flowlu-submit svg {
+    color: #000;
+    font-size: 16px;
+    margin-right: 4px;
+}
+
+button.flowlu-submit.btn-default-arrow:hover {
+    background: #ff9600;
+    color: #fff;
+}
+
+button.flowlu-submit.btn-default-arrow:hover svg {
+    color: #fff;
+}

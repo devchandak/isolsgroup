@@ -1,0 +1,79 @@
+.breadcrumbs-header {
+  background-attachment: fixed !important;
+  background-position: 50% 100% !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  }
+  
+  .half-filter {
+    height: 400px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .dark-filter {
+    padding: 240px 20px 0;
+    background-color: rgba(17,17,17,.4);
+    position: relative;
+  }
+  
+  .breadcrumbs {
+    margin: 0;
+    padding: 0;
+    float: right!important;
+  }
+  
+  .breadcrumbs li {
+    float: left;
+    list-style-type: none;
+  }
+  
+  .breadcrumbs a {
+    color: #fff;
+    font-family: "Open Sans",sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  .breadcrumbs a:hover {
+    text-decoration: underline;
+  }
+  
+  .breadcrumbs .separate {
+    padding: 0 8px;
+}
+.breadcrumbs>li span {
+  color: #fff;
+  font-family: "Open Sans",sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.cut-bottom {
+  bottom: 0;
+}
+
+.cutBox {
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+  height: 20px;
+  width: 100%;
+}
+.custom-filter {
+  background-color: rgba(255,150,0,.65);
+}
+
+.half-filter>li {
+  float: left;
+  height: 100%;
+  list-style-type: none;
+  width: 50%;
+}
+
+h1.pull-right.color-1.text-right {
+  text-align: end;
+  color: #fff;
+  font-size: 38px;
+}

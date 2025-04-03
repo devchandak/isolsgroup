@@ -1,8 +1,117 @@
-.footer {
-    text-align: center;
-    padding: 20px;
-    background: #333;
-    color: white;
-    margin-top: 50px;
-  }
-  
+.footerBlock {
+  padding: 40px 0 0;
+  position: relative;
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+.footerBlock .container-bg-additional {
+  height: auto;
+}
+.container-bg-additional {
+  background-color: #222;
+}
+.mt-ftr {
+  margin-top: -134px;
+}
+.b-footer-socials {
+  position: relative;
+  z-index: 2;
+  padding-top: 80px;
+}
+.b-footer-socials ul {
+  margin: 0;
+  padding: 0;
+}
+.b-footer-socials .socials-title {
+  color: #ff9600;
+}
+.b-footer-socials .socials-title {
+  display: block;
+  font-size: 16px;
+  padding-top: 12px;
+  padding-left: 0;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  position: relative;
+  margin-right: 14%;
+  margin-bottom: 5px;
+  padding: 0;
+}
+
+.b-footer-socials .socials-title:before {
+  background: #ff9600;
+}
+.b-footer-socials .socials-title:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: -10px;
+  width: 14px;
+  height: 1px;
+}
+.b-footer-socials li {
+  margin-right: 25px;
+  margin-bottom: 2px;
+  padding: 0;
+}
+.b-footer-socials a {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #666;
+  font-weight: 600;
+  -moz-transition: color .3s linear;
+  -o-transition: color .3s linear;
+  -webkit-transition: color .3s linear;
+  -ms-transition: color .3s linear;
+  transition: color .3s linear;
+  text-decoration: none;
+  line-height: 15px !important;
+  display: block;
+}
+
+.b-footer-socials a:hover {
+  color: #ddd;
+  text-decoration: none;
+}
+.pt-30 {
+  padding-top: 30px;
+}
+
+.b-footer-socials ul.list-inline li {
+  display: inline-block;
+}
+
+li.socials-title.font-secondary.wh1 {
+  width: 100%;
+}
+.pb-30 {
+  padding-bottom: 30px;
+}
+
+.cp {
+  color: #ddd;
+  padding-top: 15px;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.b-footer-bg-filter {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-size: cover;
+  height: 500px;
+  margin: -20px 0 0;
+  width: 44%;
+}
+.b-footer-bg-filter {
+  background: url("https://www.isolsgroup.com/img/MAP1.webp") center/cover no-repeat;
+}
+
+.list-inline1.iconn a.dmca-badge {
+  display: inline-block;
+}

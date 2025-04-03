@@ -32,11 +32,11 @@ const Header = () => {
         {/* Menu Items */}
         <Nav className="">
           <NavDropdown title="Group Companies" id="group-dropdown">
-            <NavDropdown.Item href="#">Innovative Solution Technologies</NavDropdown.Item>
-            <NavDropdown.Item href="#">Digital India Leader</NavDropdown.Item>
-            <NavDropdown.Item href="#">Digital Marketing Companion</NavDropdown.Item>
-            <NavDropdown.Item href="#">Thirsty Hunter</NavDropdown.Item>
-            <NavDropdown.Item href="#">Book You Online</NavDropdown.Item>
+            <NavDropdown.Item href="/innovative-solution-technologies">Innovative Solution Technologies</NavDropdown.Item>
+            <NavDropdown.Item href="/digital-india-leader">Digital India Leader</NavDropdown.Item>
+            <NavDropdown.Item href="/digital-marketing-companion">Digital Marketing Companion</NavDropdown.Item>
+            <NavDropdown.Item href="/thirsty-hunter">Thirsty Hunter</NavDropdown.Item>
+            <NavDropdown.Item href="/book-you-online">Book You Online</NavDropdown.Item>
           </NavDropdown>
 
           <NavDropdown title="Solutions & Services" id="solutions-dropdown">

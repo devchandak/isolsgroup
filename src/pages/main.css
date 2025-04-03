@@ -833,6 +833,8 @@ h1.heading-line {
 }
 
 p.quote-author {
+  margin-bottom: 20px;
+  margin-top: 20px;
     font-size: 12px;
     display: block;
     letter-spacing: .1px;
@@ -860,6 +862,7 @@ span.author-role {
     color: #666;
     font-family: "Open Sans", sans-serif;
     font-weight: 300;
+    line-height: 2;
 }
 
 h1.heading-line::before{
@@ -872,3 +875,396 @@ h1.heading-line::before{
     background-color: #ff9600;
 }
 
+.customBgColor, .customPseudoElBg:after, .customPseudoElBg:before {
+  background-color: #ff9600;
+}
+
+.b-services-bg-filter {
+  position: absolute;
+  left: 0;
+  top: 0;
+  /* background: url(../media/filter-bg/services-filter-bg.webp) center; */
+  background-size: cover;
+  height: 820px;
+  margin: 0 0 0;
+  width: 50%;
+  z-index: 0;
+}
+.b-home-offers {
+  position: relative;
+  background-color: #222;
+  height: 780px;
+}
+.b-featured-services {
+  z-index: 1111;
+  display: block;
+}
+
+.featured-services-left {
+  z-index: 9;
+  position: relative;
+  padding: 42px 7.8% 18px;
+  border: 6px solid #eee;
+  margin-top: 70px;
+}
+
+.featured-services-left h2.f-s-title {
+  color: #fff;
+  font-weight: 700;
+  font-family: Raleway,sans-serif;
+  padding: 0;
+  position: relative;
+  display: inline-block;
+  line-height: 50px;
+  margin-bottom: 44px;
+  font-size: 50px;
+}
+
+.featured-services-left p {
+  color: #fff;
+  line-height: 2;
+  max-width: 75%;
+  margin-bottom: 32px;
+}
+
+.featured-services-left p strong {
+  font-weight: 700;
+  padding-top: 10px;
+  display: block;
+}
+
+.featured-services-left a.btn {
+  color: #fff;
+  padding: 10px 0;
+  border: none;
+  -moz-transition: margin .3s linear;
+  -o-transition: margin .3s linear;
+  -webkit-transition: margin .3s linear;
+  -ms-transition: margin .3s linear;
+  transition: margin .3s linear;
+  text-transform: uppercase;
+  letter-spacing: .8px;
+  font-size: 11px;
+  padding: 0px;
+  font-weight: 700;
+  position: relative;
+  border-radius: 0!important;
+  vertical-align: bottom;
+  min-height: 36px;
+}
+
+.b-home-offers .vertical-title.hidden-md {
+  top: 310px;
+}
+.b-home-offers span.vertical-text-main.color-white.text-uppercase {
+  color: #fff;
+}
+
+.b-home-offers span.vertical-text-additional {
+  color: #fff;
+  right: -10px;
+}
+.b-home-offers .vertical-title.hidden-md {
+  top: 310px;
+}
+.b-home-offers span.vertical-text-main.color-white.text-uppercase {
+  color: #fff;
+}
+
+.b-home-offers span.vertical-text-additional {
+  color: #fff;
+  right: -10px;
+}
+.b-home-offers{
+
+.b-services-item {
+  margin-bottom: 10px;
+}
+
+.services-icon {
+  float: left;
+  margin-right: 25px;
+  padding-top: 5px;
+}
+
+.services-text {
+  position: relative;
+  overflow: hidden;
+}
+
+.services-text h6 {
+  color: #fff;
+  position: relative;
+  padding: 15px 0 10px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  font-family: Raleway, sans-serif;
+  font-size: 17px;
+  margin: 0px;
+}
+
+.services-text p {
+  color: #ddd;
+  line-height: 1.8 ;
+  font-size: 15px;
+  font-family: "Open Sans",sans-serif;
+  font-weight: 300;
+}
+
+.featured-services-right {
+  padding-left: 80px;
+  padding-top: 30px;
+}
+
+.services-text h6:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 15px;
+  height: 1px;
+}
+}
+.b-member-info .b-mod-heading {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.b-mod-heading .first-heading {
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: .2px;
+  color: #222;
+  margin: 0;
+  line-height: 1.1;
+  font-family: Raleway,sans-serif;
+}
+.customColor, .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover, .navbar-main>li>a:focus, .navbar-main>li>a:hover {
+  color: #ff9600;
+}
+.b-member-info .heading-line.line-right:before {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 7px;
+  width: 15px;
+  height: 1px;
+  background-color: #ff9600;
+}
+
+.b-member-info .heading-line {
+  display: inline-block;
+  font-size: 38px;
+  font-weight: 700;
+  position: relative;
+  padding: 0 24px 0 0;
+  font-family: Raleway, sans-serif;
+  strong {
+      font-weight: 700;
+  }
+}
+.b-member-info .b-member-caption {
+  margin-bottom: 20px;
+}
+.b-member-caption .contact-info-title, .b-work-info .contact-info-title {
+  margin-bottom: 2px;
+  color: #222;
+  font-weight: 700;
+}
+.b-contact-info .contact-info-title, .b-member-caption .contact-info-title, .b-post-tags .contact-info-title, .b-work-info .contact-info-title {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+  position: relative;
+  padding-top: 12px;
+  margin-bottom: 13px;
+  color: #222;
+}
+.b-contact-info .contact-info-title:before, .b-member-caption .contact-info-title:before, .b-post-tags .contact-info-title:before, .b-work-info .contact-info-title:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 15px;
+  height: 1px;
+}
+.customBgColor, .customPseudoElBg:after, .customPseudoElBg:before {
+  background-color: #ff9600;
+}
+.b-member-info  p {
+  font-size: 15px;
+  color: #666;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+.b-member-info .b-member-caption p {
+  line-height: 2;
+}
+
+
+.awards-recognitions{
+  padding-top: 70px;
+
+
+.row.b-member-info {
+  padding-bottom: 30px;
+}
+
+.member-img {
+  padding: 0px;
+}
+
+.member-img img {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+.member-img:hover {
+  opacity: 0.8;
+}
+
+}
+
+.aboutt {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.aboutt a.btn {
+  border: 1px solid #ccc;
+  padding: 10px 27px;
+  color: #ff9600;
+  font-weight: 700;
+  position: relative;
+  border-radius: 0!important;
+  vertical-align: bottom;
+  min-height: 36px;
+  font-family: 'Open Sans';
+  text-transform: uppercase;
+}
+
+.aboutt a.btn svg {
+  color: #666;
+  margin-right: 10px;
+}
+.aboutt a.btn:hover {
+  background: #ff9600;
+  color: #fff;
+}
+
+.aboutt a.btn:hover i {
+  color: #fff;
+}
+
+section.success-stories {
+  padding-top: 70px;
+}
+
+b, strong{
+  font-weight: 700 !important;
+}
+
+
+.section-services {
+  padding: 115px 0 119px;
+  position: relative;
+  overflow: hidden;
+
+  .b-mod-heading {
+    margin-bottom: 50px;
+}
+.b-mod-heading .first-heading {
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: .2px;
+  color: #222;
+  margin: 0;
+  line-height: 1.1;
+}
+.line-right {
+  font-size: 48px;
+  padding-top: 0;
+  margin-bottom: 40px;
+  font-weight: 700;
+  position: relative;
+  padding: 0 24px 0 0;
+  display: inline-block;
+}
+.heading-line.line-right:before {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 7px;
+  width: 15px;
+  height: 1px;
+}
+.second-heading {
+  font-size: 15px;
+  color: #666;
+  font-family: "Open Sans",sans-serif;
+  font-weight: 300;
+}
+.b-mod-heading .second-heading {
+  font-style: italic;
+  font-size: 16px;
+  font-weight: 300;
+  color: #222;
+  line-height: 2;
+  letter-spacing: .5px;
+  font-family: Merriweather,serif;
+}
+.b-services-holder {
+  margin-bottom: 0px;
+}
+.b-services-item {
+  margin-bottom: 10px;
+}
+.b-services-item .services-icon {
+  float: left;
+  margin-right: 25px;
+  padding-top: 5px;
+}
+.b-services-item .services-text {
+  position: relative;
+  overflow: hidden;
+}
+.b-services-item .services-text .services-title {
+  position: relative;
+  padding: 15px 0 18px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  font-family: Raleway,sans-serif;
+  margin-bottom: 0px;
+}
+.b-services-item .services-text .services-title:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 15px;
+  height: 1px;
+}
+.b-services-item .services-text p {
+  line-height: 2;
+  font-size: 15px;
+  color: #666;
+  font-family: "Open Sans",sans-serif;
+  font-weight: 300;
+}p.logomain img {
+  width: 18%;
+}
+
+}
+.innovativesolutions .breadcrumbs-header.paralax {
+  background-size: contain !important;
+  background-position: 0% 0% !important;
+}
+.customColor, .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover, .navbar-main>li>a:focus, .navbar-main>li>a:hover {
+  color: #ff9600;
+}
+
+.customBgColor, .customPseudoElBg:after, .customPseudoElBg:before {
+  background-color: #ff9600;
+}
