@@ -7,6 +7,11 @@ import DigitalMarketingCompanion from "./components/groupcompanies/DigitalMarket
 import ThirstyHunter from "./components/groupcompanies/ThirstyHunter";
 import BookYouOnline from "./components/groupcompanies/BookYouOnline";
 import BusinessTechnology from "./components/solutionservices/BusinessTechnology";
+import DigitalMarketingSolution from "./components/solutionservices/DigitalMarketingSolution";
+import DigitalPaymentsSolution from "./components/solutionservices/DigitalPaymentsSolution";
+import BusinessProcessManagement from "./components/solutionservices/BusinessProcessManagement";
+import CloudInfrastructure from "./components/solutionservices/CloudInfrastructure";
+import TechDigitalConsulting from "./components/solutionservices/TechDigitalConsulting";
 
 const App = () => {
   return (
@@ -19,6 +24,11 @@ const App = () => {
         <Route path="/thirsty-hunter" element={<ThirstyHunter />} />
         <Route path="/book-you-online" element={<BookYouOnline />} />
         <Route path="/business-technology-solutions" element={<BusinessTechnology />} />
+        <Route path="/digital-marketing-solutions" element={<DigitalMarketingSolution />} />.
+        <Route path="/digital-payment-solutions" element={<DigitalPaymentsSolution />} />
+        <Route path="/business-process-management" element={<BusinessProcessManagement />} />
+        <Route path="/cloud-infra-solutions" element={<CloudInfrastructure />} />
+        <Route path="/technology-digital-consulting" element={<TechDigitalConsulting />} />
       </Routes>
     </Router>
   );

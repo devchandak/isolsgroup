@@ -41,11 +41,11 @@ const Header = () => {
 
           <NavDropdown title="Solutions & Services" id="solutions-dropdown">
             <NavDropdown.Item href="/business-technology-solutions">Business Technology</NavDropdown.Item>
-            <NavDropdown.Item href="#">Digital Marketing</NavDropdown.Item>
-            <NavDropdown.Item href="#">Digital Payments</NavDropdown.Item>
-            <NavDropdown.Item href="#">Business Process Management</NavDropdown.Item>
-            <NavDropdown.Item href="#">Cloud Infrastructure</NavDropdown.Item>
-            <NavDropdown.Item href="#">Tech Digital Consulting</NavDropdown.Item>
+            <NavDropdown.Item href="/digital-marketing-solutions">Digital Marketing</NavDropdown.Item>
+            <NavDropdown.Item href="/digital-payment-solutions">Digital Payments</NavDropdown.Item>
+            <NavDropdown.Item href="/business-process-management">Business Process Management</NavDropdown.Item>
+            <NavDropdown.Item href="/cloud-infra-solutions">Cloud Infrastructure</NavDropdown.Item>
+            <NavDropdown.Item href="/technology-digital-consulting">Tech Digital Consulting</NavDropdown.Item>
           </NavDropdown>
 
           <Nav.Link href="#">Clients</Nav.Link>

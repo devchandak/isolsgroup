@@ -53,7 +53,7 @@ const BrandsSlider = () => {
                 fontFamily: "Raleway",
                 fontWeight: "700",
                 fontStyle: "normal",
-                padding: "0 0 10px 0px",
+                padding: "0 0 10px 30px",
                 textTransform: "uppercase",
               }}
               className="vc_custom_heading vc_custom_1490112359046"

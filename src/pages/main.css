@@ -1314,4 +1314,48 @@ b, strong{
 .img-brd-mod {
   position: relative;
 }
+.about-content {
+  padding-right: 40px;
+}
+span.vertical-text-additional {
+  color: #f6f6f6;
+  font-weight: 900;
+  bottom: -80px;
+  font-size: 70px;
+  right: 0px;
+  -webkit-transform: rotate(90deg);
+}
+
+}
+
+.knowmorebtn {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.knowmorebtn a.btn {
+  padding: 0px;
+  color: #666;
+  font-family: "Open Sans",sans-serif;
+  font-weight: 300;
+  margin-right: 4px;
+  white-space: nowrap;
+  font-size: 16px;
+}
+
+.knowmorebtn a.btn svg {
+  margin-right: 2px;
+}
+
+.knowmorebtn p {
+  color: #666;
+  font-family: "Open Sans",sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  text-align: center;
+}
+
+.knowmorebtn p a {
+  color: #000;
 }

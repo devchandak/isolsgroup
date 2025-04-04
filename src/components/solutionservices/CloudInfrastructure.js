@@ -12,70 +12,49 @@ import AOS from "aos";
 const servicesData = [
   {
     title: "DEDICATED SERVER",
-    icon: "/images/services/3199bc5d6a8a9e06751ea6d898289cf9.png",
+    icon: "/images/services/dedicated-server.jpg",
     description:
-      "Enabling business success by ensuring round the clock uptime of your critical business applications & cloud resources.",
+      "DEDICATED SERVEREnabling business success by ensuring round the clock uptime of your critical business applications & cloud resources.",
     animation: "fadeInDown",
   },
   {
     title: "CLOUD SERVER",
-    icon: "/images/services/mobile-app1.png",
+    icon: "/images/services/cloud-server.png",
     description:
-      "Independence in scaling up your cloud server infrastructure without any downtime. Available on-demand & instantly.",
+      "Independence in scaling up your cloud server infrastructure without any downtime. Available on-demand & instantly.  ",
     animation: "fadeInDown",
   },
   {
     title: "VPS SERVER",
-    icon: "/images/services/web-app1.png",
+    icon: "/images/services/vps-server.jpg",
     description:
       "Experience the great power of the virtual private servers. Recommended for businesses with mid level cloud applications.",
-    animation: "slideInRight",
+    animation: "fadeInDown",
   },
   {
     title: "CLOUD CONSULTING",
-    icon: "/images/services/crm.jpg",
+    icon: "/images/services/cloud-support.png",
     description:
       "Planning & implementation of a solid cloud infrastructure for the business and acting as a cloud infra backbone for them.",
-    animation: "slideInLeft",
+    animation: "fadeInDown",
   },
   {
     title: "DOMAIN REGISTRATION",
-    icon: "/images/services/custom-app.png",
+    icon: "/images/services/domain-registration.png",
     description:
       "Setting up the digital identity of the business or brand and to create a vibrant digital representative front of the business.",
-    animation: "fadeInUp",
+    animation: "fadeInDown",
   },
   {
     title: "CLOUD SECURITY",
-    icon: "/images/services/web-develpment.png",
+    icon: "/images/services/buss-prce-cons.jpeg",
     description:
       "Rapid advancement in the cloud era has increased the vulnerability of cloud applications and we will guard the same.",
-    animation: "slideInRight",
-  },
-  {
-    title: "CLOUD SECURITY",
-    icon: "/images/services/digital-payment (1).png",
-    description:
-      "Rapid advancement in the cloud era has increased the vulnerability of cloud applications and we will guard the same.",
-    animation: "slideInRight",
-  },
-  {
-    title: "CLOUD SECURITY",
-    icon: "/images/services/Ecommerce-Solution.png",
-    description:
-      "Rapid advancement in the cloud era has increased the vulnerability of cloud applications and we will guard the same.",
-    animation: "slideInRight",
-  },
-  {
-    title: "CLOUD SECURITY",
-    icon: "/images/services/services_settings (1).png",
-    description:
-      "Rapid advancement in the cloud era has increased the vulnerability of cloud applications and we will guard the same.",
-    animation: "slideInRight",
+    animation: "fadeInDown",
   },
 ];
 
-const BusinessTechnology = () => {
+const CloudInfrastructure = () => {
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
@@ -84,35 +63,36 @@ const BusinessTechnology = () => {
     <div>
       <Header />
       <BreadcrumbsHeader 
-        title="Business Technology" 
-        backgroundImage="/images/breadcrumbs/bussiness-technology.jpg" 
+        title="Cloud Infrastructure" 
+        backgroundImage="/images/breadcrumbs/cloud-infra.jpg" 
       />
- <section className="about-section section-home-secondary1">
+ <section className="about-section section-home-secondary1 pb-2">
       <div className="vertical-title hidden-md">
         <span className="vertical-text-main">ISOLS Group</span>
-        <span className="vertical-text-additional">BT</span>
+        <span className="vertical-text-additional">CI</span>
       </div>
       <div className="container">
         <div className="row">
           {/* Left Column: Text Content */}
           <div className="col-xs-12 col-sm-6 about-content">
             <div className="heading">
-              <p className="first-heading">Empowering Businesses</p>
+              <p className="first-heading">Digital Pillar</p>
               <h1 className="heading-line">
-                <strong>Through Technology</strong>
+                <strong>Cloud Infra</strong>
               </h1>
             </div>
             <div className="blockquote">
               <p className="quote-text">
-              Business Technology is one of the areas of specialization of ISOLS Group developed & managed under its brand Innovative Solution Technologies.
-              </p>
+              Robust Cloud Server Infra is the backbone for the online success of the venture. BookYouOnline.com, one of the wings of ISOLS Group specialises for the same.</p>
              
             </div>
             <div className="about-description">
-              <p>
-              Technology is one of the forte of ISOLS Group managed under its brand Innovative Solution Technologies. It focuses right from simple application development till business automation solution. The Company has its own technology products and solutions for various industry vertical such as Food & Restaurants, Hospitality, Medical & Healthcare, Doctors etc. Innovative Solution Technologies also offers its services for various custom software, mobile and web development requirements such as software development, website development, CRM development, mobile app development etc. The core niche of Innovative Solution Technologies is to conceptualize, develop & implement industry specific technology solution to solve the challenges of various industry verticals. Some of the technology solutions are:
-              </p>
-             
+                <br></br>
+              <p className="mb-0">
+              Technology and digital marketing are core solution areas of ISOLS Group managed under its brand Innovative Solution Technologies and Digital India Leader. But, with the advancement in the digital era, for determining the success of the company it has become a necessity for an organisation to have a stable, reliable & secure online server infrastructure with excellent technical support.</p>
+                <p>BookYouOnline.com is a wing of ISOLS Group that deals in cloud server solutions, cloud security and other cloud solutions & services.
+
+                </p>             
             </div>
           </div>
           {/* Right Column: Image */}
@@ -121,7 +101,7 @@ const BusinessTechnology = () => {
                   <div className="brd"></div>
                   <div className="img-cut">
                     <div className="cut"></div>
-                    <img src="https://www.isolsgroup.com/images/header/4.png" className="img-responsive center-block" alt="Isols working" />
+                    <img src="/images/cloud-infra-side.jpg" className="img-responsive center-block" alt="Isols working" />
                   </div>
               </div>
           </div>
@@ -157,7 +137,7 @@ const BusinessTechnology = () => {
           <FaArrowRight />
           Know more
           </Link>
-          <p>about various technology solutions & services offered by Innovative Solution Technologies - A technology wing of ISOLS Group</p>
+          <p>insides on various Cloud Infra solutions offered by BookYouOnline.com an initiative by Innovative Solution Technologies - A technology wing of ISOLS Group</p>
         </div>
         </div>
        </div>
@@ -170,4 +150,4 @@ const BusinessTechnology = () => {
   );
 };
 
-export default BusinessTechnology;
+export default CloudInfrastructure;
